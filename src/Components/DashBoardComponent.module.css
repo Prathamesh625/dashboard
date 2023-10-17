@@ -1,0 +1,169 @@
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+.last-div-input{
+    margin-top: 2em;
+}
+.last-div-input input{
+    margin-right: 2em;
+}
+.last-div-input-p{
+    display: flex;
+    justify-content: space-between;
+}
+.item-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.item-list{
+    display: flex;
+}
+.item-list p{
+    padding-right: 7em;
+}
+
+
+
+
+
+.circle1{
+    width: 100px; 
+    height: 100px; 
+    background-color: #e2fff0; 
+    border-radius: 100%
+}
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: #e7dbff;
+    border-radius: 100%
+}
+.circle3 {
+    width: 100px;
+    height: 100px;
+    background-color: #cdf3ff;
+    border-radius: 100%
+}
+.circle4 {
+    width: 100px;
+    height: 100px;
+    background-color: #fbc0e4;
+    border-radius: 100%
+}
+
+
+
+.Container{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comp {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.dashboard-comp{
+    background-color: white;
+        height: 150px;
+
+        width: 100%;
+        border-radius: 10px;
+    padding: 10px;
+        display: flex;
+        align-items: center;
+
+}
+
+
+.graphs {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    
+}
+
+
+.bar-plot {
+
+
+    background-color: white;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.pie-plot {
+
+
+    background-color: white;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+}
+
+
+@media screen and (min-width:980px) {
+.comp {
+        display: flex;
+
+    }
+.dashboard-comp {
+    background-color: white;
+    height: 150px;
+    background-color: white;
+        width: 100%;
+        border-radius: 10px;
+ 
+        display: flex;
+        align-items: center;
+   
+}
+
+
+
+.bar-plot {
+    background-color: white;
+    width: 80%;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.pie-plot {
+
+
+    background-color: white;
+    width: 30%;
+    margin-right: 10px;
+        border-radius: 10px;
+    height: 350px;
+   
+    align-items: center;
+    padding: 10px;
+}
+
+.graphs {
+    display: flex;
+    margin-top: 20px
+}
+
+    
+}

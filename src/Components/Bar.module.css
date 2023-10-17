@@ -1,0 +1,23 @@
+.bar-items{
+    background-color: #F3F1FD;
+    margin: 10px;
+    height: 200px;
+    width: 50px;
+    border-radius:10px
+}
+
+
+/* Styles for screens with a minimum width of 769px (considered tablet or larger) */
+@media (max-width: 800px) {
+    /* Your tablet and larger screen styles here */
+
+.bar-items {
+        background-color: #F3F1FD;
+        margin-left:20px;
+        width: 50%;
+        border-radius: 5px
+    }
+
+    /* Example: Arrange elements side by side for tablets */
+
+}
